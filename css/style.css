@@ -124,6 +124,7 @@ h1 {
 
 .header-btn {
   font-size: 15px;
+  width: 167px;
 }
 
 .header-btn:hover {
@@ -142,7 +143,7 @@ h1 {
 
 /* MAIN STYLE START  */
 
-/* HERO START */
+/*SECTION HERO START */
 
 .hero-container {
   display: flex;
@@ -186,7 +187,89 @@ h1 {
   height: 40px;
 }
 
-/* HERO END */
+/*SECTION HERO END */
+
+/* SECTION CARD WRAPPER START */
+
+.services {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  gap: 16px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.services-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 719px;
+  margin-bottom: 42px;
+}
+
+.cards-wrapper {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 120px;
+}
+
+.cards-wrapper-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.cards-wrapper-item {
+  padding: 24px 45px;
+  text-align: center;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cards-wrapper-img {
+  margin-bottom: 16px;
+}
+
+.cards-wrapper-name {
+  margin-bottom: 16px;
+}
+
+.cards-wrapper-info {
+  margin-bottom: 16px;
+}
+
+.secand-card-wrapper {
+}
+
+.btn-wrappers {
+  width: 378px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-wrappers-link {
+  width: 192px;
+}
+
+/* SECTION CARD WRAPPER END */
 
 /* SERVICES HERO START */
 
@@ -201,13 +284,12 @@ h1 {
 
 .services-hero-title {
   margin-bottom: 16px;
-font-family: "Open Sans", sans-serif;
-font-size: 40px;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: 0em;
-text-align: left;
-
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .services-hero-description {
