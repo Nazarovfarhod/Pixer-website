@@ -564,6 +564,7 @@ h1 {
   padding-right: 20px;
   background-color: #f3f3f3;
   border: none;
+  opacity: 0.65;
 }
 
 .order-btn {
