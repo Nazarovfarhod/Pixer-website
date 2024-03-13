@@ -225,8 +225,6 @@ h1 {
 
 /* MAIN STYLE START  */
 
-/*SECTION HERO START */
-
 .hero {
   background-color: #fff;
 }
@@ -285,10 +283,6 @@ h1 {
 .hero-btn:active {
   background: rgba(0, 186, 252, 0.6);
 }
-
-/*SECTION HERO END */
-
-/* SECTION CARD WRAPPER START */
 
 .service {
   margin-top: 56px;
@@ -375,10 +369,6 @@ h1 {
   color: #00bafc;
 }
 
-/* SECTION CARD WRAPPER END */
-
-/* HOW WE WORK START */
-
 .howwe-work {
   padding-top: 56px;
   padding-bottom: 56px;
@@ -436,10 +426,6 @@ h1 {
   line-height: 24px;
 }
 
-/* HOW WE WORK END */
-
-/* SERVICES HERO START */
-
 .service-hero {
   background-color: #fff;
 }
@@ -471,8 +457,6 @@ h1 {
   text-align: center;
   width: 800px;
 }
-
-/* SERVICES START */
 
 .services {
   background-color: #f4f4f4;
@@ -549,12 +533,6 @@ h1 {
   color: #00bafc;
 }
 
-/* SERVICES END */
-
-/* SERVICE HERO END */
-
-/* ORDER STYLE START */
-
 .order {
   background-color: #00bafc;
 }
@@ -630,8 +608,6 @@ h1 {
   font-weight: 700;
   line-height: 24px;
 }
-
-/* ORDER STYLE END */
 
 /* MAIN STYLE END  */
 
