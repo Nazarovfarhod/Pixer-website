@@ -22,42 +22,75 @@
         /></a>
 
         <!-- NAV -->
-        <nav class="sitenav">
+        <nav class="sitenav" id="nav">
           <ul class="sitenav-list">
             <li class="sitenav-item">
-              <a class="sitenav-link" href="./index.html">Bosh sahifa</a>
+              <a class="sitenav-link underline-effect" href="./index.html"
+                >Bosh sahifa</a
+              >
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="./pages/services.html">Xizmatlar</a>
+              <a
+                class="sitenav-link underline-effect"
+                href="./pages/services.html"
+                target="_blank"
+                >Xizmatlar</a
+              >
               <ul class="sitenav-list-inner">
                 <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">Vebsayt</a>
+                  <a
+                    class="sitenav-link-inner underline-effect"
+                    href="./pages/services.html"
+                    target="_blank"
+                    >Vebsayt</a
+                  >
                 </li>
                 <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">Telegram bot</a>
+                  <a
+                    class="sitenav-link-inner underline-effect"
+                    href="./pages/services.html"
+                    target="_blank"
+                    >Telegram bot</a
+                  >
                 </li>
                 <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">SMM</a>
+                  <a
+                    class="sitenav-link-inner underline-effect"
+                    href="./pages/services.html"
+                    target="_blank"
+                    >SMM</a
+                  >
                   <ul class="sitenav-list-inner-smm">
                     <li class="sitenav-item-inner">
-                      <a class="sitenav-link-inner-smm" href="#"
+                      <a
+                        class="sitenav-link-inner-smm"
+                        href="./pages/services.html"
+                        target="_blank"
                         ><i>Brand yaratish</i></a
                       >
                     </li>
                     <li class="sitenav-item-inner-smm">
-                      <a class="sitenav-link-inner-smm" href="#"
+                      <a
+                        class="sitenav-link-inner-smm"
+                        href="./pages/services.html"
+                        target="_blank"
                         ><i>Brandni mashhur qilish</i></a
                       >
                     </li>
                   </ul>
                 </li>
                 <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">Grafik dizayn</a>
+                  <a
+                    class="sitenav-link-inner underline-effect"
+                    href="./pages/services.html"
+                    target="_blank"
+                    >Grafik dizayn</a
+                  >
                 </li>
                 <li class="sitenav-item-inner">
                   <a
-                    class="sitenav-link-inner"
-                    href="https://oqila.uz/s/crm"
+                    class="sitenav-link-inner underline-effect"
+                    href="./pages/services.html"
                     target="_blank"
                     >CRM tizim</a
                   >
@@ -65,28 +98,31 @@
               </ul>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Portfolio</a>
+              <a class="sitenav-link underline-effect" href="#">Portfolio</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Jamoa</a>
+              <a class="sitenav-link underline-effect" href="#">Jamoa</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Blog</a>
+              <a class="sitenav-link underline-effect" href="#">Blog</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Kontaktlar</a>
+              <a class="sitenav-link underline-effect" href="#">Kontaktlar</a>
               <ul class="sitenav-list-inner">
                 <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">Telegram</a>
+                  <a class="sitenav-link-inner underline-effect" href="#aloqa"
+                    >Telegram</a
+                  >
                 </li>
                 <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">Instagram</a>
+                  <a class="sitenav-link-inner underline-effect" href="#aloqa"
+                    >Instagram</a
+                  >
                 </li>
                 <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">Facebook</a>
-                </li>
-                <li class="sitenav-item-inner">
-                  <a class="sitenav-link-inner" href="#">Whatsaap</a>
+                  <a class="sitenav-link-inner underline-effect" href="#aloqa"
+                    >Facebook</a
+                  >
                 </li>
               </ul>
             </li>
@@ -330,14 +366,14 @@
               placeholder="Telefon raqamingiz"
             />
             <div class="input">
-              <p class="input-paragraph">Xizmat turi</p>
-              <img
-                class="input-img"
-                src="./images/icon-of-order.svg"
-                alt=""
-                width="16px"
-                height="16px"
-              />
+              Xizmat turlari
+              <select class="xizmat-tanlash" name="Xizmat turi" id="">
+                <option value="1">Sayt tuzish</option>
+                <option value="2">Telegram bot tuzish</option>
+                <option value="3">SMM</option>
+                <option value="4">Grafik dizayn</option>
+                <option value="5">CRM tizimlar</option>
+              </select>
             </div>
             <a class="order-btn btn" href="#">Buyurtma berish</a>
           </div>
@@ -349,7 +385,7 @@
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
-    <footer class="footer">
+    <footer class="footer" id="aloqa">
       <div class="footer-container container">
         <div class="footer-info">
           <h5 class="footer-titel">Copyright 2024</h5>
@@ -417,6 +453,7 @@
               >
             </li>
           </ul>
+          <a class="btn footer-btn" href="#nav">Yuqori qisimga qaytish</a>
         </div>
       </div>
     </footer>

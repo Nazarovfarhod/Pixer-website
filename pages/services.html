@@ -23,25 +23,90 @@
         /></a>
 
         <!-- NAV -->
-        <nav class="sitenav">
+        <nav class="sitenav" id="nav">
           <ul class="sitenav-list">
-            <li class="sitenav-item">
+            <li class="sitenav-item underline-effect">
               <a class="sitenav-link" href="../index.html">Bosh sahifa</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="./services.html">Xizmatlar</a>
+              <a class="sitenav-link underline-effect" href="./services.html"
+                >Xizmatlar</a
+              >
+              <ul class="sitenav-list-inner">
+                <li class="sitenav-item-inner">
+                  <a class="sitenav-link-inner underline-effect" href="#sayt"
+                    >Vebsayt</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a
+                    class="sitenav-link-inner underline-effect"
+                    href="#telegram"
+                    >Telegram bot</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a class="sitenav-link-inner underline-effect" href="#smm"
+                    >SMM</a
+                  >
+                  <ul class="sitenav-list-inner-smm">
+                    <li class="sitenav-item-inner">
+                      <a class="sitenav-link-inner-smm" href="#"
+                        ><i>Brand yaratish</i></a
+                      >
+                    </li>
+                    <li class="sitenav-item-inner-smm">
+                      <a class="sitenav-link-inner-smm" href="#"
+                        ><i>Brandni mashhur qilish</i></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="sitenav-item-inner">
+                  <a
+                    class="sitenav-link-inner underline-effect"
+                    href="#grafik-dizayn"
+                    >Grafik dizayn</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a
+                    class="sitenav-link-inner underline-effect"
+                    href="#crm"
+                    target="_blank"
+                    >CRM tizim</a
+                  >
+                </li>
+              </ul>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Portfolio</a>
+              <a class="sitenav-link underline-effect" href="#">Portfolio</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Jamoa</a>
+              <a class="sitenav-link underline-effect" href="#">Jamoa</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Blog</a>
+              <a class="sitenav-link underline-effect" href="#">Blog</a>
             </li>
             <li class="sitenav-item">
-              <a class="sitenav-link" href="#">Kontaktlar</a>
+              <a class="sitenav-link underline-effect" href="#">Kontaktlar</a>
+              <ul class="sitenav-list-inner">
+                <li class="sitenav-item-inner">
+                  <a class="sitenav-link-inner underline-effect" href="#aloqa"
+                    >Telegram</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a class="sitenav-link-inner underline-effect" href="#aloqa"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="sitenav-item-inner">
+                  <a class="sitenav-link-inner underline-effect" href="#aloqa"
+                    >Facebook</a
+                  >
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>
@@ -79,7 +144,7 @@
 
         <div class="services-container container">
           <ul class="services-list">
-            <li class="services-item">
+            <li class="services-item" id="sayt">
               <img
                 class="services-img"
                 src="../images/services-img1.svg"
@@ -145,7 +210,7 @@
                     <li class="fram-ikon">maxsus</li>
                   </div>
                 </ul>
-                <a class="btn header-btn" href="#">Buyurtma berish</a>
+                <a class="btn header-btn" href="#buyurtma">Buyurtma berish</a>
                 <a class="frame-btn" href="#">Batafsil ma’lumot</a>
               </div>
             </li>
@@ -158,7 +223,7 @@
 
         <div class="services-container container">
           <ul class="services-list">
-            <li class="services-item">
+            <li class="services-item" id="telegram">
               <img
                 class="services-img"
                 src="../images/telegram-bot.svg"
@@ -234,7 +299,7 @@
                     <li class="fram-ikon">maxsus</li>
                   </div>
                 </ul>
-                <a class="btn header-btn" href="#">Buyurtma berish</a>
+                <a class="btn header-btn" href="#buyurtma">Buyurtma berish</a>
                 <a class="frame-btn" href="#">Batafsil ma’lumot</a>
               </div>
             </li>
@@ -247,7 +312,7 @@
 
         <div class="services-container container">
           <ul class="services-list">
-            <li class="services-item">
+            <li class="services-item" id="smm">
               <img
                 class="services-img"
                 src="../images/smm.svg"
@@ -313,7 +378,7 @@
                     <li class="fram-ikon">aksiyalar uyushtirish</li>
                   </div>
                 </ul>
-                <a class="btn header-btn" href="#">Buyurtma berish</a>
+                <a class="btn header-btn" href="#buyurtma">Buyurtma berish</a>
                 <a class="frame-btn" href="#">Batafsil ma’lumot</a>
               </div>
             </li>
@@ -325,7 +390,7 @@
         <!-- SERVICES  NO4  START -->
         <div class="services-container container">
           <ul class="services-list">
-            <li class="services-item">
+            <li class="services-item" id="grafik-dizayn">
               <img
                 class="services-img"
                 src="../images/grafik-dizayin.svg"
@@ -383,7 +448,7 @@
                     </li>
                   </div>
                 </ul>
-                <a class="btn header-btn" href="#">Buyurtma berish</a>
+                <a class="btn header-btn" href="#buyurtma">Buyurtma berish</a>
                 <a class="frame-btn" href="#">Batafsil ma’lumot</a>
               </div>
             </li>
@@ -396,7 +461,7 @@
 
         <div class="services-container container">
           <ul class="services-list">
-            <li class="services-item">
+            <li class="services-item" id="crm">
               <img
                 class="services-img"
                 src="../images/crm-tizimlar.svg"
@@ -452,7 +517,7 @@
                     <li class="fram-ikon">maxsus</li>
                   </div>
                 </ul>
-                <a class="btn header-btn" href="#">Buyurtma berish</a>
+                <a class="btn header-btn" href="#buyurtma">Buyurtma berish</a>
                 <a class="frame-btn" href="#">Batafsil ma’lumot</a>
               </div>
             </li>
@@ -460,7 +525,7 @@
         </div>
       </section>
 
-      <section class="order">
+      <section class="order" id="buyurtma">
         <div class="order-container container">
           <h2 class="order-title">Buyurtma berish</h2>
           <p class="order-description">
@@ -497,7 +562,7 @@
 
     <!-- FOOTER START -->
 
-    <footer class="footer">
+    <footer class="footer" id="aloqa">
       <div class="footer-container container">
         <div class="footer-info">
           <h5 class="footer-titel">Copyright 2024</h5>
@@ -565,6 +630,7 @@
               >
             </li>
           </ul>
+          <a class="btn footer-btn" href="#nav">Yuqori qisimga qaytish</a>
         </div>
       </div>
     </footer>
